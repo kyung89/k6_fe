@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./02.css">
+</head>
+<body>
+    <!--html: 구조를 잡는다 (boxing)-->
+    <!--css: 선택자 주의. 선택자(selector: DOM TREE에서 요소를 어떻게 찾을래?)를 어떻게 쓰느냐가 중요하다-->
+    <!--DOM Tree 를 그릴 수 있어야 한다-->
+    <main>
+        <header>
+            <h1>AI 빅데이터분석 풀스택서비스 SW 개발자 양성과정</h1>
+            <nav>
+                <ul>
+                    <!--li 은 block 요소이다: 줄이 바뀜!!!-->
+                    <!--div: 박스요소(줄바뀜) | span: 인라인요소-->
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>facebook</li>
+                    <li>instagram</li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>프론트엔드 FrontEnd</h1>
+            <p>
+                웹에서 사용자에게 시각적으로 보여지는 부분을 의미한다. 프론트엔드쪽에서는 주로 HTML, CSS, 자바스크립트가 쓰이며, 요즘은 페이스북에서 개발한 자바스크립트에서 파생된 싱글 페이지 애플리케이션 형태의 리액트가 많이 사용된다.
+            </p>
+        </article>
+
+        <!-- section#id>h1+div>img+p -->
+        
+        <section id="s1">
+            <h1>HTLM</h1>
+            <div>
+                <img src="./01_image/html.png" alt="">
+                <p>
+                    HTML(HyperText Markup Language)은 웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용
+                </p>
+            </div>
+        </section>
+
+        <section id="s2">
+            <h1> CSS</h1>
+            <div>
+                <img src="./01_image/css.png" alt="">
+                <p>
+                    Cascading Style Sheets(CSS)는 HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어
+                </p>
+            </div>
+        </section>
+
+        <section id="s3">
+            <h1>JavaScript</h1>
+            <div>
+                <img src="./01_image/js.png" alt="">
+                <p>
+                    웹 페이지를 위한 스크립트 언어로 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원
+                </p>
+            </div>
+        </section>
+
+        <section id="s4">
+            <h1> React</h1>
+            <div>
+                <img src="./01_image/react.png" alt="">
+                <p>사용자 인터페이스를 만들기 위한 JavaScript 라이브러리</p>
+            </div>
+        </section>
+        
+        <footer>
+            <ul>
+                <li>AI 빅데이터분석 풀스택서비스 SW 개발자 양성과정</li>
+                <li>웹개발, 자바/자료구조/AI 프로그래밍, DB SQL, 빅데이터분석, 텐서플로딥러닝, AI학습모델웹서비스프로젝트, 빅데이터분석웹서비스프로젝트</li>
+                <li>2022년 9월 19일(월) ~ 2023년 3월 9일(목) 119일간, 평일 오전 9시 20분 ~ 오후 6시(960시간)</li>
+                <li>부산대학교 과학기술연구동 4층 401호 juri3763@pusan.ac.kr 051-510-3764</li>
+            </ul>
+        </footer>
+        
+    </main>
+</body>
+</html>
