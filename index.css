@@ -1,4 +1,4 @@
-/* 1 */
+/* 1: 2교시 */
 * {
     padding: 0px;
     margin: 0px;
@@ -47,4 +47,41 @@ article li {
     border: 1px dotted gray;
     /* 10 */
     padding: 10px;
+}
+
+/* 11: 3교시부터 */
+article li:hover {
+    background-color: blanchedalmond;
+    color: white;
+}
+
+/* 코드 체크 */
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+/* 03.html */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+section > h1 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted gray;
+    margin: 10px;
+    padding: 20px;
 }
