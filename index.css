@@ -1,0 +1,50 @@
+/* 1 */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 2 */
+main {
+    width: 60%;
+    margin-left: 20%;   
+}
+
+/* 3: 순서대로 */
+header {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex; /* 가로 순서대로 배치 */
+    justify-content: space-between;  /* 왼, 오 붙이기 */
+    align-items: center; /* 수직 정렬 */
+    padding: 0px 20px; /* 왼, 오 20px */
+} 
+
+/* 5 */
+article {
+    display: flex; /* 옆으로 간다 */
+    flex-direction: column; /* 이거 왜함? -> 나중에 justify-contents 등 적용에 필요 */
+    align-items: center;
+}
+
+/* 4 */
+article ul {
+    width: 70%; /* 60%(main) 의 70% */
+    background-color: beige;
+    /* 6 */
+    margin-top: 20px; /* 위에서 20px 떨어뜨리기 */
+    list-style: none;
+}
+
+/* 7 */
+article li {
+    /* 9 */
+    display: flex;
+    align-items: center;
+    /* 8 */
+    height: 40px;
+    border: 1px dotted gray;
+    /* 10 */
+    padding: 10px;
+}
