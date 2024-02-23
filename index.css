@@ -84,3 +84,15 @@ section > div {
     margin: 10px;
     padding: 20px;
 }
+
+header > div > a {
+    text-decoration: none;
+    display: inline-flex; /* inline 만한 box 스타일 적용: 박스가 되어야 padding, width 등을 줄 수 있다 */
+    padding: 10px;
+    color: midnightblue;
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}

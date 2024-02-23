@@ -9,7 +9,7 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+button:hover, #btArea2 > button:hover {
     background-color: brown;
     color: white;
     cursor: pointer;
@@ -19,3 +19,12 @@ h2 {
     font-size: medium;
     color: blue;
 }
+
+.btGroup {
+    background-color: antiquewhite;
+}
+
+#btArea2 > button {
+    background-color: green;
+}
+
