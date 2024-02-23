@@ -1,0 +1,14 @@
+button {
+    width: 150px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section > div > img {
+    margin: 10px;
+}
