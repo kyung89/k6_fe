@@ -12,11 +12,49 @@ const rollDiceByItem = (item) => {
 // 3.
 const rollDiceByProf = () => {
     const imgs = document.querySelectorAll("div > img");
-    imgs.forEach(img => {
+
+    const imgNum = [1,1,1];
+
+    // for of: entries
+    for(let [idx, img] of imgs.entries()) {
         const num = Math.floor(Math.random()* 5 + 1);
         img.setAttribute("src", `./img/${num}.png`);
-    });
+
+        imgNum[idx] = num;
+        console.log(idx, imgNum[idx]); 
+    }
+
+    // imgs.forEach(img => {
+    //     const num = Math.floor(Math.random()* 5 + 1);
+    //     img.setAttribute("src", `./img/${num}.png`);
+    // });
+
+    // // 2024-02-26 수업: 5,6,7,8 교시
+
+    // // 기본 for
+    // for(let i = 0; i < imgs.length; i++) {
+    //     const num = Math.floor(Math.random()* 5 + 1);
+    //     imgs[i].setAttribute("src", `./img/${num}.png`);
+    // }
     
+    // for in 구문
+    // for(let i in imgs) {
+
+    //     const num = Math.floor(Math.random()* 5 + 1);
+    //     //imgs[i].setAttribute("src", `./img/${num}.png`);
+    // }
+
+    // forEach
+    // imgs.forEach((img) => {
+    //     const num = Math.floor(Math.random()* 5 + 1);
+    //     img.setAttribute("src", `./img/${num}.png`);
+    // })
+
+    // for of 구문: 이걸 제일 추천합니다!
+    // for(let img of imgs) {
+    //     const num = Math.floor(Math.random()* 5 + 1);
+    //     img.setAttribute("src", `./img/${num}.png`);
+    // }
 };
 
 // 2.
@@ -40,3 +78,4 @@ document.addEventListener("DOMContentLoaded", () => {
         rollDiceByProf();
     });
 });
+

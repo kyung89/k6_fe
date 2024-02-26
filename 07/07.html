@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./07.css">
+    <!-- <script src="./04.js"></script> -->
+    <script src="./07.js"></script> <!--04 응용버전-->
+    <title>K-디지털 6기 - 단위환산</title>
+</head>
+<body>
+    <!--3교시부터 시작-->
+    <main>
+        <header>
+            <h1>K-Digital 6기 자바스크립트</h1>
+            <div>
+                <a href="../index.html">홈</a>
+            </div>
+        </header>
+        <form action="" name="myform">
+            <section>
+                <h1>자바스크립트 단위 환산</h1>
+                <div>
+                    <div class="row">
+                        <div>
+                            <select name="sel1" id="sel1">
+                                <option value="°C" selected>섭씨 온도(°C)</option>
+                                <option value="°F">화씨 온도(°F)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="sel2" id="sel2">
+                                <option value="°C">섭씨 온도(°C)</option>
+                                <option value="°F" selected>화씨 온도(°F)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <input type="number" id="txt1">
+                            <label for="txt1">°C</label>
+                        </div>
+                        <div>
+                            <input type="number" id="txt2" readonly>
+                            <label for="txt2">°F</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </form>
+    </main>
+</body>
+</html>

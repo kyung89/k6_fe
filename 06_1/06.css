@@ -1,0 +1,19 @@
+button {
+    width: 40px;
+    height: 40px;
+    background-color: peru;
+    color: white;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+section > div > div > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+section > div > div > img {
+    margin: 10px;
+}
