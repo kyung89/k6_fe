@@ -66,3 +66,6 @@ for(let [k, v] of Object.entries(obj)) {
 // json: 파이썬에서는 딕셔너리 형태, 자바스크립트에서는 오브젝트 형태
 // RESTful service: json 형태의 데이터를 주고 받는다
 
+console.log("오브젝트 키배열: ", Object.keys(obj));
+let arr3 = Object.keys(obj).map((v, i) => v+i);
+console.log("arr3: ", arr3);
