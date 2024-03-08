@@ -1,0 +1,59 @@
+section > div {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#numDisp {
+    margin: 10px 50px;
+}
+
+/* > 아닌 공백: 모든 아래 다 찾아봄! */
+section span {
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /*border: 1px solid black;*/
+}
+
+.sp0 {
+    background-color: brown;
+    color: white;
+}
+
+.sp1 {
+    background-color: darkblue;
+    color: white;
+}
+
+.sp2 {
+    background-color: blueviolet;
+    color: white;
+}
+
+.sp3 {
+    background-color: darkgreen;
+    color: white;
+}
+
+.sp4 {
+    background-color: orange;
+    color: white;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkorange;
+    font-weight: bold;
+    border: none;
+}

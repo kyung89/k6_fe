@@ -17,7 +17,7 @@
                 <a href="../index.html">홈</a>
             </div>
         </header>
-        <form action="" name="myform">
+        <!-- <form action="" name="myform"> -->
             <section>
                 <h1>자바스크립트 업다운(UPDOWN)</h1>
                 <div>
@@ -26,12 +26,12 @@
                     </div>
                     <div class="row">
                         <input type="number" id="num" name="num" min="1" max="100">
-                        <button type="button" onclick="handleClick()">확인</button>  <!--console.log() 찍히고 바로 사라질 경우: type="button" 추가해주면 해결됨!-->
+                        <button onclick="handleClick()">확인</button>  <!--console.log() 찍히고 바로 사라질 경우: type="button" 추가해주면 해결됨! 또는 form 태그 지우기-->
                     </div>
                 </div>
                 <div class="msg"><span>1 에서 100 까지 숫자만 입력하세요.</span></div>
             </section>
-    </form>
+    <!-- </form> -->
     </main>
 </body>
 </html>
